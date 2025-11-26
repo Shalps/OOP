@@ -19,7 +19,7 @@ public class Main {
                 new Expenditure("Шкаф", 10000)
         };
 
-        System.out.println( company.applyDeals(deals));
+    
         System.out.println("Разница доходов и расходов, которая была на момент старта уплаты налогов: " +company.applyDeals(deals)+" руб." );
 
     }
